@@ -1,0 +1,158 @@
+header {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    margin: 0 0 30px;
+    overflow: auto;
+    color: #fff;
+    background: #fff;
+    border-bottom: 2px solid #ccc;
+
+}
+
+
+.name {
+    float: left;
+    width: 250px;
+    height: 90px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 90px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background: #4aaaa5;
+}
+nav {
+
+    float: right;
+    margin-top: 28px;
+}
+ 
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both
+}
+nav a {
+    font-size: 18px;
+    margin-left: 8px;
+    text-align: center;
+    text-decoration: none;
+    color: #999;
+
+}
+nav a+a::before {
+
+    content: "|";
+    font-size: 20px;
+    margin-right: 8px;
+    font-weight: lighter;
+    color: #999;
+
+}
+
+.main-contain {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both
+
+}
+#paddin {
+    padding-top: 130px;
+}
+.section {
+
+background-color: #fff;
+padding: 30px;
+width: 100%;
+max-width: 590px;
+border: 1px solid #ddd;
+display: inline-block;
+
+
+}
+.section h1 {
+    font-size: 30px;
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border-bottom: 3px solid #ccc;
+    padding-bottom: 20px;
+}
+.image-place {
+    position: relative;
+    
+    width: 274px;
+    margin: 20px 0 25px;
+    overflow: auto;
+    float: left;
+    
+}
+.image-place img {
+
+    width: 100%;
+    border: 0 none;
+    margin-left: 22px;
+
+    
+}
+
+
+
+section::after {
+    content: "";
+    clear: both;
+    display: block;
+
+}
+#kady, #kolizey, #dragon {
+    margin-top: -12px;
+}
+aside {
+
+    float: right;
+    width: 200px;
+    padding: 30px;
+    margin-bottom: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    
+    
+}
+
+
+
+.aside h2 { 
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: 700;
+    color: #4aaaa5;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    line-height: 22px;
+    border-bottom: 2px solid #eee;;
+    font-size: 22px;
+}
+.connect-image {
+
+    width: 62px;
+    height: 62px;
+    margin-top: 8px;
+}
+.image-place h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    
+    margin-bottom: -6px;
+    font-weight: 300;
+    line-height: 26px;
+    color: #fff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+    margin-left: 22px;
+}

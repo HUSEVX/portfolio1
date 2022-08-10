@@ -1,0 +1,132 @@
+.header {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    margin: 0 0 30px;
+    overflow: auto;
+    color: #fff;
+    background: #fff;
+    border-bottom: 2px solid #ccc;
+
+}
+
+
+.name {
+    float: left;
+    width: 250px;
+    height: 90px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 90px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background: #4aaaa5;
+}
+nav {
+
+    float: right;
+    margin-top: 28px;
+}
+ 
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both
+}
+nav a {
+    font-size: 18px;
+    margin-left: 8px;
+    text-align: center;
+    text-decoration: none;
+    color: #999;
+
+}
+nav a+a::before {
+
+    content: "|";
+    font-size: 20px;
+    margin-right: 8px;
+    font-weight: lighter;
+    color: #999;
+    
+}
+#main {
+    padding-top: 130px;
+}
+.section {
+    float: left;
+    width: 100%;
+    max-width: 550px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+.about-me {
+
+    color: cadetblue;
+    font-size: 30px;
+    padding: 15px;
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 3px solid #ddd;;
+}
+.meow {
+    width: 200px;
+    height: auto;
+    margin-top: 15px;
+    float: left;
+    margin-right: 10px;
+    
+    
+}
+p {
+    margin-top: 20px;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+aside {
+
+    float: right;
+    width: 200px;
+    padding: 30px;
+    margin-bottom: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    
+    
+}
+
+
+
+.aside h2 { 
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: 700;
+    color: #4aaaa5;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    line-height: 22px;
+    border-bottom: 2px solid #eee;;
+    font-size: 22px;
+}
+.connect-image {
+
+    width: 62px;
+    height: 62px;
+    margin-top: 8px;
+}
+#footer {
+    background: #666;
+    border-top: 8px solid #4aaaa5;
+    padding: 35px;
+    width: 100%;
+    width: 100%;
+    margin: 0px;
+    clear: both;
+    color: #eee;
+    text-align: center;
+}
